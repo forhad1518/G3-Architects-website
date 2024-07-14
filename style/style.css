@@ -6,3 +6,31 @@
     font-weight: 400px;
     font-style: normal;
   }
+
+/* Full Website Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+  /* Shared Style */
+.display-flex{
+    display: flex;
+}
+/* Header Style */
+.header-bg{
+    background-color: darksalmon;
+}
+/* nav-bar style */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items{
+    list-style: none;
+    margin-right: 25px;
+    color: black;
+}
+.list-name{
+    text-decoration: none;
+    color: black;
+}
